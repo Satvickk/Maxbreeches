@@ -36,7 +36,7 @@ const TopHeader = () => {
                                 {
                                     !status ?
                                         <ul className="right_list_fix">
-                                            <li><Link to="/compare"><i className="fa fa-refresh"></i> Compare</Link></li>
+                                            {/* <li><Link to="/compare"><i className="fa fa-refresh"></i> Compare</Link></li> */}
                                             <li><Link to="/login"><i className="fa fa-user"></i> Login</Link></li>
                                             <li><Link to="/register"><i className="fa fa-lock"></i> Register</Link></li>
                                         </ul>

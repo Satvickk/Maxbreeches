@@ -45,10 +45,9 @@ const Banner = () => {
               <div className="col-lg-6 col-md-8 col-sm-12 col-12">
                 <div className="furniture_slider_content">
                   <h5> NEW TRENDING</h5>
-                  <h2> Sofa Collection</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                  <Link to="/shop" className="theme-btn-one bg-black btn_sm">Shop Now</Link>
+                  <h2>Comfortable Wears</h2>
+                  <p style={{color: 'black'}}></p>
+                  <Link to="/shop" className="theme-btn-one bg-black btn_sm">View Products</Link>
                 </div>
               </div>
             </div>
@@ -59,11 +58,11 @@ const Banner = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="furniture_slider_content">
-                  <h5> NEW TRENDING</h5>
-                  <h2> Sofa Collection</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  <h5 style={{color: 'white'}}> NEW TRENDING</h5>
+                  <h2 style={{color: "white"}}> Sofa Collection</h2>
+                  <p style={{color: "white"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                    <Link to="/shop" className="theme-btn-one bg-black btn_sm">Shop Now</Link>
+                    <Link to="/shop" className="theme-btn-one bg-black btn_sm">View Products</Link>
                 </div>
               </div>
             </div>
@@ -74,11 +73,11 @@ const Banner = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="furniture_slider_content">
-                  <h5> NEW TRENDING</h5>
-                  <h2> Sofa Collection</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  <h5 style={{color: "white"}}> NEW TRENDING</h5>
+                  <h2 style={{color: "white"}}> Sofa Collection</h2>
+                  <p style={{color: "white"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                    <Link to="/shop" className="theme-btn-one bg-black btn_sm">Shop Now</Link>
+                    <Link to="/shop" className="theme-btn-one bg-black btn_sm">View Products</Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-// import ReactDOM from 'react-dom';
 import 'font-awesome/css/font-awesome.min.css'
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
