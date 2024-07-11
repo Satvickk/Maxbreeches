@@ -8,30 +8,30 @@ import { useSelector } from "react-redux"
 import { useDispatch } from "react-redux";
 import Swal from 'sweetalert2'
 
-const FooterData = [
-    {
-        title: "INFORMATION",
-        links: [
-            { linkTitle: "Home", link: "/" },
-            { linkTitle: "About us", link: "/about" },
-            { linkTitle: "Privacy Policy", link: "/privacy-policy" },
-            { linkTitle: "Frequently Questions", link: "/faqs" },
-            { linkTitle: "Order Tracking", link: "/order-tracking" },
-            { linkTitle: "Compare", link: "/compare" }
-        ]
-    },
-    {
-        title: "SHOP",
-        links: [
-            { linkTitle: "Cart View One", link: "/cart" },
-            { linkTitle: "Cart View Two", link: "/cartTwo" },
-            { linkTitle: "Empty Cart", link: "/empty-cart" },
-            { linkTitle: "Checkout View One", link: "/checkout-one" },
-            { linkTitle: "Checkout View Two", link: "/checkout-two" },
-            { linkTitle: "Wishlist", link: "/wishlist" }
-        ]
-    }
-]
+// const FooterData = [
+//     {
+//         title: "INFORMATION",
+//         links: [
+//             { linkTitle: "Home", link: "/" },
+//             { linkTitle: "About us", link: "/about" },
+//             { linkTitle: "Privacy Policy", link: "/privacy-policy" },
+//             { linkTitle: "Frequently Questions", link: "/faqs" },
+//             { linkTitle: "Order Tracking", link: "/order-tracking" },
+//             { linkTitle: "Compare", link: "/compare" }
+//         ]
+//     },
+//     {
+//         title: "SHOP",
+//         links: [
+//             { linkTitle: "Cart View One", link: "/cart" },
+//             { linkTitle: "Cart View Two", link: "/cartTwo" },
+//             { linkTitle: "Empty Cart", link: "/empty-cart" },
+//             { linkTitle: "Checkout View One", link: "/checkout-one" },
+//             { linkTitle: "Checkout View Two", link: "/checkout-two" },
+//             { linkTitle: "Wishlist", link: "/wishlist" }
+//         ]
+//     }
+// ]
 
 const Footer = () => {
     let dispatch = useDispatch();
@@ -41,6 +41,9 @@ const Footer = () => {
     let stopPromo = useSelector((state) => state.settings.stopPromo);
     let cookie = useSelector((state) => state.settings.cookie);
     let stopCookie = useSelector((state) => state.settings.stopCookie);
+
+    let date = new Date()
+    let currentYear = date.getFullYear()
 
     useEffect(() => {
         if (promoStatus) {
@@ -97,31 +100,30 @@ const Footer = () => {
                             <div className="footer_left_side">
                                 <Link to="/" ><img src={logo} alt="logo" /></Link>
                                 <p>
-                                    <strong>ANDSHOP</strong> is an multi-vendor B2C fast e-commerce company. The company mainly focuses on men,women and children wear,
-                                    but it also offers other apparel, clothes, accessories, shoes, bags and other fashion items.
+                                    <strong>MaxBreeches</strong>an ISO 9001:2015 certified manufacturer, specializes in high-quality equestrian rider apparel. With skilled labor, advanced technology, and a dedicated quality team, we ensure top-notch products. We welcome small orders, value customer feedback, and guarantee timely delivery, supported by a robust ERP system.
                                 </p>
                                 <div className="footer_left_side_icon">
                                     <ul>
                                         <li>
-                                            <a href="#!"><i className="fa fa-facebook-f"></i></a>
+                                            <a href="https://www.facebook.com/Maxbreeches-988538264596783/?skip_nax_wizard=true"><i className="fa fa-facebook-f"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#!"><i className="fa fa-twitter"></i></a>
+                                            <a href="https://x.com/home"><i className="fa fa-twitter"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#!"><i className="fa fa-linkedin"></i></a>
+                                            <a href="https://in.pinterest.com/"><i className="fa fa-pinterest"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#!"><i className="fa fa-instagram"></i></a>
+                                            <a href="https://www.instagram.com/maxbreeches/"><i className="fa fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#!"><i className="fa fa-google"></i></a>
+                                            <a href="https://www.maxbreeches.com/"><i className="fa fa-google"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12">
+                        {/* <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                             {FooterData.slice(0, 1).map((data, index) => (
                                 <div className="footer_one_widget" key={index}>
                                     <h3>{data.title}</h3>
@@ -145,7 +147,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             ))}
-                        </div>
+                        </div> */}
                         <div className="col-lg-3 col-md-12 col-sm-12 col-12">
                             <div className="footer_one_widget">
                                 <h3>NEWSLETTER</h3>
@@ -174,7 +176,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="copyright_left">
-                                <h6>© CopyRight 2022 <span>AndShop</span></h6>
+                                <h6>© CopyRight {currentYear} <span>MaxBreeches</span></h6>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
