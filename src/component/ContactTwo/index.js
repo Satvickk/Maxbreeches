@@ -51,29 +51,29 @@ const ContactTwoArea = () => {
                                     <li className="address_location">
                                         <div className="contact_widget ">
                                             <i className="fa fa-map-marker"></i>
-                                            <p>32, Choto Mirzapur, Ahsan Ahmed Road <br /> Khulna 9100, Bangladesh</p>
+                                            <p>Plot.No 110/ Arazi No 335 Kanpur- Lucknow <br /> By pass highway (near baba kuti) Suklaganj Dist. Unnao
+                                            <br /> 209861 U.P india.</p>
                                         </div>
                                     </li>
                                     <li className="address_location">
-
-
                                         <div className="contact_widget">
                                             <i className="fa fa-phone"></i>
-                                            <Link to="/">+1 (833) 287-3077</Link>
+                                            <Link to="#">
+                                            0091-8052003993</Link>
                                         </div>
-                                        <div className="contact_widget">
+                                        {/* <div className="contact_widget">
                                             <i className="fa fa-mobile"></i>
                                             <Link to="/">+1 (833) 528-8619</Link>
-                                        </div>
+                                        </div> */}
                                     </li>
                                     <li className="address_location">
                                         <div className="contact_widget">
                                             <i className="fa fa-envelope"></i>
-                                            <Link to="/">demo@gmail.com</Link>
+                                            <Link to="/">info@maxbreeches.com</Link>
                                         </div>
                                         <div className="contact_widget">
                                             <i className="fa fa-globe"></i>
-                                            <Link to="/">andshop.com</Link>
+                                            <Link to="https://www.maxbreeches.com">maxbreeches.com</Link>
                                         </div>
                                     </li>
                                 </ul>

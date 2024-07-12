@@ -9,24 +9,23 @@ import img4 from '../../assets/img/icon/icon_about4.jpg'
 const FeatureData = [
     {
         img: img1,
-        title: "Creative Always",
-        para: `Stay creative with Billey and the huge collection of premade elements, layouts &amp;
-        effects`
+        title: "Technologies",
+        para: `We will enhance our inbuilt mechanism to check quality parameters including button force, stitching elasticity, measurement deviation, color fastness, and fabric durability.`
     },
     {
         img: img2,
-        title: "Express Customization",
-        para: `Easy to install and configure the theme customization in a few clicks with Billey.`
+        title: "Systems",
+        para: `We have implemented specialized systems for each department, a 4-point system from cutting to packing, Kaizen rules for all staff, and an ERP system to monitor every production and logistics step.`
     },
     {
         img: img3,
-        title: "Premium Integrations",
-        para: `Integrated premium plugins in Billey is the secret weapon for your business to thrive.`
+        title: "Management",
+        para: `Power/water and Wages till salary and goods everything has their written management work responsibility to do the healthy management.`
     },
     {
         img: img4,
-        title: "Real-time Editing",
-        para: `Edit your work and preview the changes on the screen live with advanced page builder.`
+        title: "Aims",
+        para: `Under Mr. Rahul Agrawal's leadership, we engage with riders at horse fairs to enhance our manufacturing and uphold our tagline, "Ride with Excellence."`
     }
 ]
 

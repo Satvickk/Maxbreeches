@@ -100,7 +100,7 @@ const Footer = () => {
                             <div className="footer_left_side">
                                 <Link to="/" ><img src={logo} alt="logo" /></Link>
                                 <p>
-                                    <strong>MaxBreeches</strong>an ISO 9001:2015 certified manufacturer, specializes in high-quality equestrian rider apparel. With skilled labor, advanced technology, and a dedicated quality team, we ensure top-notch products. We welcome small orders, value customer feedback, and guarantee timely delivery, supported by a robust ERP system.
+                                    <strong>MaxBreeches</strong> an ISO 9001:2015 certified manufacturer, specializes in high-quality equestrian rider apparel. With skilled labor, advanced technology, and a dedicated quality team, we ensure top-notch products. We welcome small orders, value customer feedback, and guarantee timely delivery, supported by a robust ERP system.
                                 </p>
                                 <div className="footer_left_side_icon">
                                     <ul>
