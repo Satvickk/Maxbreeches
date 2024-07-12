@@ -15,8 +15,8 @@ const Furniture = () => {
             <Header />
             <Banner />
             <BannerBottom />
-            <HotProduct />
-            <BlackFriday />
+            {/* <HotProduct /> */}
+            {/* <BlackFriday /> */}
             <PopularProduct />
             <OurStory />
             <Blog />

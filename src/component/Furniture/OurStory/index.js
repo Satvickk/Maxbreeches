@@ -10,9 +10,7 @@ const OurStory = () => {
                 <div className="col-lg-8 offset-lg-2">
                     <div className="our_story_content">
                         <h2>Our Story</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem quaerat
-                             autem obcaecati nisi dolore reprehenderit fugiat accusamus repellat nihil possimus voluptas ipsa, 
-                            asperiores maiores quisquam ipsum necessitatibus sit saepe.</p>
+                        <p><b>MaxBreeches</b>is an ISO 9001:2015 certified manufacturer, specializes in high-quality equestrian rider apparel. With skilled labor, advanced technology, and a dedicated quality team, we ensure top-notch products. We welcome small orders, value customer feedback, and guarantee timely delivery, supported by a robust ERP system.</p>
                         <Link to="/about" className="theme-btn-one bg-black btn_md">Read Full Story</Link>
                     </div>
                 </div>

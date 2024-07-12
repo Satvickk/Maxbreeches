@@ -8,7 +8,7 @@ const Blog = () => {
         <>
     <section id="blog_area_two" className="ptb-100">
         <div className="container">
-            <Heading heading="BLOG POST"/>
+            <Heading heading="News and Updates"/>
             <div className="row">
             {BlogData.slice(0, 2).map((data, index)=>(
                  <BlogCard key={index} img={data.img} date={data.date} heading={data.heading} para={data.para} button={data.button} />

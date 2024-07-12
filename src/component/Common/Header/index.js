@@ -116,7 +116,7 @@ const Header = () => {
               <div className="row">
                 <div className="col-12 d-flex align-items-center justify-content-between">
                   <div className="header-logo">
-                    <div className="logo">
+                    <div className="logo" style={{margin: "10px"}}>
                       <Link to="/">
                         <img src={logo} alt="logo" />
                       </Link>

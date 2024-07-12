@@ -1,24 +1,22 @@
-import Blog1 from '../../../assets/img/furniture/blog/blog1.jpg'
-import Blog2 from '../../../assets/img/furniture/blog/blog2.jpg'
+import Blog1 from '../../../assets/img/product-image/11.png'
+import Blog2 from '../../../assets/img/product-image/15.png'
 
  
 
 export const BlogData = [
     {   
         img: Blog1,
-        date: `11 May 2021`,
-        heading: "Urna pretium elit mauris cursus Curabitur at elit Vestibulum",
-        para: `Donec tellus Nulla lorem Nullam elit id ut elit feugiat lacus.
-        Congue eget dapibus congue tincidunt senectus nibh risus Phasellus tristique justo. 
-       Justo Pellentesque Donec lobortis faucibus,`,
+        date: `11 May 2024`,
+        heading: "Enhancing Quality Through Advanced Technologies and Systems",
+        para: `In today's competitive market, maintaining high-quality standards is essential for any business. At our company, we prioritize quality at every step, ensuring that our products meet the highest standards. In this blog post, we will explore how we leverage advanced technologies and specialized systems to enhance our quality control processes.`,
         button: "Read More..."
        
     },
     {   
         img: Blog2,
-        date: `10 Jna 2021`,
-        heading: "4 Fresh Ways To Style Leather Shorts For Spring",
-        para: "It feels super easy to wear and really versatile – perfect one-and-done outfit for spring/summer",
+        date: `10 Jan 2024`,
+        heading: "Effective Management and Aspirations for Excellence",
+        para: "At our company, effective management and clear aspirations are the cornerstones of our success. In this blog post, we will delve into our management practices and company aims, highlighting our commitment to excellence and continuous improvement.",
         button: "Read More..."
        
     }
