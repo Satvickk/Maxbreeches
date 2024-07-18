@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 // import Img
-import banner from '../../../assets/img/common/nav_banner.png'
+import banner from '../../../assets/img/product-image/fabrics.jpg'
 
 const NaveItems = (props) => {
     const hasChildren = props.item?.children && props.item.children.length > 0;

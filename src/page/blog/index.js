@@ -8,7 +8,7 @@ const BlogGridThrees = () => {
     return (
         <>
             <Header/>
-            <Banner title="Blog" />
+            <Banner title="News & Updates" />
             <BlogGridThree/>
             <InstgramSlider/>
             <Footer/>

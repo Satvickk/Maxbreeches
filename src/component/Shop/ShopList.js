@@ -1,53 +1,68 @@
-import React, { useState } from 'react'
-import Filter from './Filter'
-import ListCard from './ListCard'
-import { useSelector } from "react-redux";
-
+import React, { useState } from "react";
+import ListCard from "./ListCard";
+import data from "./ProductsData.json"; // Assuming your JSON data is in a file named 'ProductsData.json'
 
 const ShopList = () => {
-    const [products, setProducts] = useState(useSelector((state) => state.products.products))
-    const [page, setPage] = useState(1)
-    let allData = [...useSelector((state) => state.products.products)];
+  const [collectionIndex, setCollectionIndex] = useState(0); // State to track current collection index
+  const itemsPerPage = 4;
 
-    const randProduct = (page) => {
-        if(page){
-            let data = allData.sort((a, b) => 0.5 - Math.random())
-            setProducts(data);
-            setPage(page);
-        }
+  // Total number of collections
+  const totalCollections = data.length;
+
+  // Calculate the products to be displayed for the current collection
+  const currentCollection = data[collectionIndex];
+  const currentProducts = currentCollection.children;
+
+  const totalPages = Math.ceil(currentProducts.length / itemsPerPage);
+
+  const handleNextCollection = () => {
+    if (collectionIndex < totalCollections - 1) {
+      setCollectionIndex(collectionIndex + 1);
     }
+  };
 
-    return (
-        <>
-            <section id="shop_main_area" className="ptb-100">
-                <div className="container">
-                    <Filter filterEvent={randProduct}/>
-                    <div className="row">
-                        {products.slice(1, 6).map((data, index)=>(
-                            <ListCard data={data} key={index}/>
-                        ))}
-                        <div className="col-lg-12">
-                        <ul className="pagination">
-                                        <li className="page-item" onClick={(e) => { randProduct(page >1?page-1:0) }}>
-                                            <a className="page-link" href="#!" aria-label="Previous">
-                                                <span aria-hidden="true">«</span>
-                                            </a>
-                                        </li>
-                                        <li className={"page-item "+ (page === 1?"active":null)} onClick={(e) => { randProduct(1) }}><a className="page-link" href="#!">1</a></li>
-                                        <li className={"page-item "+ (page === 2?"active":null)}  onClick={(e) => { randProduct(2) }}><a className="page-link" href="#!">2</a></li>
-                                        <li className={"page-item "+ (page === 3?"active":null)}  onClick={(e) => { randProduct(3) }}><a className="page-link" href="#!">3</a></li>
-                                        <li className="page-item" onClick={(e) => { randProduct(page <3?page+1:0) }}>
-                                            <a className="page-link" href="#!" aria-label="Next">
-                                                <span aria-hidden="true">»</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                        </div>
+  const handlePrevCollection = () => {
+    if (collectionIndex > 0) {
+      setCollectionIndex(collectionIndex - 1);
+    }
+  };
+
+  return (
+    <>
+      <section id="shop_main_area" className="ptb-100">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-6 text-center">
+              <ul className="pagination d-flex justify-content-between align-items-center">
+                <li className="page-item" onClick={handlePrevCollection}>
+                  <a className="page-link" href="#!" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                  </a>
+                </li>
+                <li>
+                  <div className="product_filter">
+                    <div className="product_shot_title">
+                      <p className="text-2xl mb-0">{currentCollection.collectionName}</p>
                     </div>
-                </div>
-            </section>
-        </>
-    )
-}
+                  </div>
+                </li>
+                <li className="page-item" onClick={handleNextCollection}>
+                  <a className="page-link" href="#!" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="row">
+            {currentProducts.map((product, index) => (
+              <ListCard data={product} key={index} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
-export default ShopList
+export default ShopList;

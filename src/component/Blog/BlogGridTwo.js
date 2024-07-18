@@ -11,7 +11,7 @@ const BlogGridTwo = () => {
                         {BlogData.slice(0, 6).map((data, index) => (
                             <BlogCard img={data.img} title={data.title} para={data.para} date={data.date} className="col-lg-6 col-md-6 col-sm-6 col-12" button={data.button} key={index} />
                         ))}
-                        <div className="col-lg-12">
+                        {/* <div className="col-lg-12">
                             <ul className="pagination">
                                 <li className="page-item">
                                     <a className="page-link" href="#!">
@@ -27,7 +27,7 @@ const BlogGridTwo = () => {
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

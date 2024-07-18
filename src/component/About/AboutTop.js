@@ -1,6 +1,6 @@
 import React from 'react'
 // import img
-import img1 from '../../assets/img/product-image/15.png'
+import img1 from '../../assets/img/product-image/maxBeechesISOCertificate.jpg'
 
 const AboutTop = () => {
     return (

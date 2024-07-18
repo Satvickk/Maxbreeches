@@ -1,0 +1,201 @@
+[
+    {
+      "id": 1,
+      "collectionName": "Mens Collection",
+      "children": [
+        {
+          "productId": 1,
+          "productName": "Men’s Classic Woven Breeches",
+          "productDescription": "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
+          "imageSrc": "m1.jpg",
+          "price": 20,
+          "rating": 4.5,
+          "reviewCount": 30
+        },
+        {
+          "productId": 2,
+          "productName": "Real Denim Breeches",
+          "productDescription": "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
+          "imageSrc": "m2.jpg",
+          "price": 40,
+          "rating": 4.0,
+          "reviewCount": 25
+        },
+        {
+          "productId": 3,
+          "productName": "Men’s Fashion Breeches",
+          "productDescription": "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
+          "imageSrc": "m3.jpg",
+          "price": 60,
+          "rating": 4.8,
+          "reviewCount": 40
+        },
+        {
+          "productId": 4,
+          "productName": "Men’s Long Lasting Breeches",
+          "productDescription": "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
+          "imageSrc": "m4.jpg",
+          "price": 50,
+          "rating": 4.2,
+          "reviewCount": 35
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "collectionName": "Womens Collection",
+      "children": [
+        {
+          "productId": 1,
+          "productName": "Ladies Knitted Denim Melange Fashion Breech",
+          "productDescription": "Ladies knitted denim melange fashion breech blend made of polyester cotton clarion knee patch two front jeans pocket with ticket pocket and contrast details back two pockets with contrast zip pocket details and contrast lycra at the bottom, crystal decoration on the ticket and back pockets.",
+          "imageSrc": "f1.jpg",
+          "price": 20,
+          "rating": 4.5,
+          "reviewCount": 30
+        },
+        {
+          "productId": 2,
+          "productName": "Ladies Real Denim Breech",
+          "productDescription": "Ladies Real denim breech with exotic fashion washed treatment for the riding as well as fashion trend which feel the casual look of equestrian.",
+          "imageSrc": "f2.jpg",
+          "price": 40,
+          "rating": 4.0,
+          "reviewCount": 25
+        },
+        {
+          "productId": 3,
+          "productName": "Ladies Woven Strong Breech",
+          "productDescription": "Ladies woven strong breech made of polyester and viscose blend with very strong technical fabrication for the style and comfort two front zip styles pocket and decorative long knee patch and contrast flexi at the bottom. This is real combination slightly hidden fashion of riding.",
+          "imageSrc": "f3.jpg",
+          "price": 60,
+          "rating": 4.8,
+          "reviewCount": 40
+        },
+        {
+          "productId": 4,
+          "productName": "Ladies Real Denim Fashion Horse Riding Breech",
+          "productDescription": "Ladies real denim fashion horse riding breech for the young ladies which always looking for the new fashion and hot show up during horse riding.",
+          "imageSrc": "f4.jpg",
+          "price": 50,
+          "rating": 4.2,
+          "reviewCount": 35
+        },
+        {
+          "productId": 5,
+          "productName": "Ladies Horse Riding Breeches",
+          "productDescription": "Ladies horse riding breeches made of Nylon spandex with very thin material to feel extra light at the time of long riding with decorative long lasting crystal bling’s and strong seat in builds which makes the nice combination for the best breeches.",
+          "imageSrc": "f5.jpg",
+          "price": 55,
+          "rating": 4.6,
+          "reviewCount": 38
+        },
+        {
+          "productId": 6,
+          "productName": "Old is Gold Fashion Breech",
+          "productDescription": "Old is gold fashion breech with two tone cotton knitted fabric two front horizontal zip pocket with contrast decoration on the seat and bottom lycra, you can choose this even if in fewer money.",
+          "imageSrc": "f6.jpg",
+          "price": 45,
+          "rating": 4.3,
+          "reviewCount": 32
+        },
+        {
+          "productId": 7,
+          "productName": "Very Classic Ladies PCS Dyed Cotton Nylon Silicon Full Seat Breech",
+          "productDescription": "Very classic very technical ladies pcs dyed cotton nylon silicon full seat breech. We made it with very after thinking what could be the best in the breeches we have used the grip on the pocket facing to save the things to fall and made the high waist to fit the best in the waist during the ride.",
+          "imageSrc": "f7.jpg",
+          "price": 65,
+          "rating": 4.7,
+          "reviewCount": 42
+        },
+        {
+          "productId": 8,
+          "productName": "Blend of Fashion and Classic Silicon Full Seat Breech",
+          "productDescription": "We promise that you will love and voice will come “Wow” This is the proper blend of fashion and classic, we made the every part of very fantastic treatment to making it to look good. Embroidery, printing and lycra, grip, bling everything most concept is the made in this silicon full seat Breech.",
+          "imageSrc": "f8.jpg",
+          "price": 75,
+          "rating": 4.9,
+          "reviewCount": 48
+        },
+        {
+          "productId": 9,
+          "productName": "Ladies Sleepy Classic Breech",
+          "productDescription": "Ladies sleepy classic with its colour and design we made it on proudly. Two front horizontal slash pocket with herringbone greys tape and two back cut pocket with contrast tape and button lock, bias waist with leather logo on the back, silicon knee patch with strong grip contrast classic flexi at bottom.",
+          "imageSrc": "f9.jpg",
+          "price": 55,
+          "rating": 4.5,
+          "reviewCount": 36
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "collectionName": "Kids Collection",
+      "children": [
+        {
+          "productId": 1,
+          "productName": "Kids Woven Full Seat Breech",
+          "productDescription": "Kids woven full seat breech made of polyester viscose and lurex yarn which bling’s upon the light goes away, sparkling more comes through from the its horse emblements transfer and contrast stitching all around the breeches.",
+          "imageSrc": "k1.jpg",
+          "price": 40,
+          "rating": 4.5,
+          "reviewCount": 30
+        },
+        {
+          "productId": 2,
+          "productName": "Naughty Breech",
+          "productDescription": "Naughty breech as your kid, this is the proper blend of strong fibres for the polyester and viscose and dreams print all over in the breech, we made it with the leather full seat as well as silicon grip above them that makes it more strong for the riding and also given lycra on the bottom for the comfort whenever it will be under the shoes.",
+          "imageSrc": "k2.jpg",
+          "price": 50,
+          "rating": 4.0,
+          "reviewCount": 25
+        },
+        {
+          "productId": 3,
+          "productName": "Kids Knitted Classic Camouflage Print Breech",
+          "productDescription": "Kids knitted classic camouflage print on the seat and waist and pocket bone, which the kids will like very much and this is also lightweight to wear, made in cotton and spandex.",
+          "imageSrc": "k3.jpg",
+          "price": 30,
+          "rating": 4.1,
+          "reviewCount": 22
+        },
+        {
+          "productId": 4,
+          "productName": "Kids Jodhpur",
+          "productDescription": "Kids jodhpur with Two front slant contrast zip pocket and long logo print on the side and bottom fold for a long term happy kids made with cotton spandex.",
+          "imageSrc": "k4.jpg",
+          "price": 45,
+          "rating": 4.2,
+          "reviewCount": 28
+        },
+        {
+          "productId": 5,
+          "productName": "Kids Two Tone Woven Light Colour Fashion Breeches",
+          "productDescription": "Kids two tone woven light colour fashion breeches in classic fabric of cotton nylon with silicon grip on the seat, one front slant zip pocket with decorative decoration on the top for good look in the fashion with bottom lycra.",
+          "imageSrc": "k5.jpg",
+          "price": 35,
+          "rating": 4.3,
+          "reviewCount": 26
+        },
+        {
+          "productId": 6,
+          "productName": "Kids Cotton Knitted Suede Full Seat Bling Breech",
+          "productDescription": "Kids cotton knitted suede full seat bling breech, two front jeans pocket with piping and two back cut patch pocket with piping and two colour rhinestones upon that these will make the breeches nice , fashioned and strong in the budget price.",
+          "imageSrc": "k6.jpg",
+          "price": 55,
+          "rating": 4.4,
+          "reviewCount": 32
+        },
+        {
+          "productId": 7,
+          "productName": "Kids Woven Extraordinary Contrast Look Breech",
+          "productDescription": "Kids woven made of cotton nylon with extra ordinary contrast look all over. Contrast piping on the pocket with decorative bone with metal touch, genuine Swarovski crystals on the pocket and silver zip on the back pockets this feel amazing for its workmanship.",
+          "imageSrc": "k7.jpg",
+          "price": 60,
+          "rating": 4.5,
+          "reviewCount": 34
+        }
+      ]
+    }
+  ]
+  
