@@ -123,6 +123,24 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                            <div className="footer_left_side">
+                                {/* <Link to="/" ><img src={logo} alt="logo" /></Link> */}
+                                <p>
+                                    <strong>MaxBreeches</strong> have only Indian bank account and not responsible for any theft and also not using any other emails or domain rather than 
+                                    <br/>
+                                    <br/>
+                                     <strong>rahul@maxbreeches.com</strong><br/>
+                                     <strong>info@maxbreeches.com</strong><br/>
+                                     <strong>rahul.agrawal@live.in</strong><br/>
+                                     <br/>
+                                     Please be very carefull Scammers can email you from the similar emails and asking for payment in US dollors or in any other country's currency.<br/>
+                                     Thanking You
+                                     Rahul Agrawal
+                                     www.maxbreeches.com
+                                </p>
+                            </div>
+                        </div>
                         {/* <div className="col-lg-3 col-md-6 col-sm-12 col-12">
                             {FooterData.slice(0, 1).map((data, index) => (
                                 <div className="footer_one_widget" key={index}>

@@ -11,7 +11,7 @@ const BlogGridThree = () => {
                         {BlogData.map((data, index) => (
                             <BlogCard img={data.img} title={data.title} para={data.para} className="col-lg-4 col-md-4 col-sm-6 col-12" date={data.date} button={data.button} key={index} />
                         ))}
-                        <div className="col-lg-12">
+                        {/* <div className="col-lg-12">
                             <ul className="pagination">
                                 <li className="page-item">
                                     <a className="page-link" href="#!">
@@ -27,7 +27,7 @@ const BlogGridThree = () => {
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

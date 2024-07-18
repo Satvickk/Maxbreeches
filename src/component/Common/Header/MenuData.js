@@ -13,81 +13,25 @@ export const MenuData = [
       mega_menu: true,
       children: [
         {
-          name: "Shop Layouts",
+          name: "Breeches and Jodhpurs",
           children: [
             {
-              name: "Shop Four Grid",
-              href: "/shop",
-            },
-            {
-              name: "Shop Three Grid",
-              href: "/shopTwo",
-            },
-            {
-              name: "Shop List View",
+              name: "Collection",
               href: "/shoplist",
-            },
-            {
-              name: "Shop Left Sidebar",
-              href: "/shop-left-bar",
-            },
-            {
-              name: "Shop Right Sidebar",
-              href: "/shop-right-bar",
-            },
-            {
-              name: "Product Single",
-              href: "/product-details-one/1",
-            },
-            {
-              name: "Product Single Two",
-              href: "/product-details-two/1",
             },
           ],
         },
         {
-          name: "Other Pages",
+          name: "Products Information",
           children: [
             {
-              name: "Cart View One",
-              href: "/cart",
+              name: "Customization",
+              href: "/customization",
             },
             {
-              name: "Cart View Two",
-              href: "/cartTwo",
-            },
-            {
-              name: "Cart View Three",
-              href: "/cartThree",
-            },
-            {
-              name: "Empty Cart",
-              href: "/empty-cart",
-            },
-            {
-              name: "Checkout View One",
-              href: "/checkout-one",
-            },
-            {
-              name: "Checkout View Two",
-              href: "/checkout-two",
-            },
-            {
-              name: "Wishlist",
-              href: "/wishlist",
-            },
-            {
-              name: "Compare",
-              href: "/compare",
-            },
-            {
-              name: "Order Tracking",
-              href: "/order-tracking",
-            },
-            {
-              name: "Order Complete",
-              href: "/order-complete",
-            },
+              name: "Fabrics",
+              href: "/fabric",
+            }
           ],
         },
       ],

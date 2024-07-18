@@ -64,6 +64,8 @@ const ContactOne = loadable(() => pMinDelay(import('./page/contact'), 250), { fa
 const ContactTwo = loadable(() => pMinDelay(import('./page/contact/contact-two'), 250), { fallback: <Loading /> });
 const ScrollToTop = loadable(() => pMinDelay(import('./component/Common/ScrollToTop'), 250), { fallback: <Loading /> });
 const Fashion = loadable(() => pMinDelay(import('./page/'), 250), { fallback: <Loading /> });
+const Fabric = loadable(() => pMinDelay(import('./page/shop/Fabric'), 250), { fallback: <Loading />});
+const Customization = loadable(() => pMinDelay(import('./page/shop/Customization'), 250), { fallback: <Loading />});
 
 const App = () => {
   return (
@@ -129,6 +131,8 @@ const App = () => {
           <Route path='/coming-soon' element={<ComingSoon/>} />
           <Route path='/contact-one' element={<ContactOne/>} />
           <Route path='/contact-two' element={<ContactTwo />} />
+          <Route path='/fabric' element={<Fabric />} />
+          <Route path='/customization' element={<Customization />} />
         </Routes>
       </Router>
       </>

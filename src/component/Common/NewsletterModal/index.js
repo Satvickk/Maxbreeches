@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../../assets/img/logo.png'
-import img from '../../../assets/img/common/modal.png'
+import img from '../../../assets/img/product-image/storyBanner.jpg'
 import Modal from 'react-bootstrap/Modal';
 const NewsletterModal = (props) => {
     return (
@@ -24,7 +24,7 @@ const NewsletterModal = (props) => {
                                             <div className="offer_modal_left">
                                                 <img src={logo} alt="logo" />
                                                 <h3>SUBSCRIBE TO NEWSLETTER</h3>
-                                                <p>Subscribe to the Andshop mailing list to receive updates
+                                                <p>Subscribe to the Maxbreeches mailing list to receive updates
                                                     on new arrivals, special offers and our promotions.</p>
                                                 <form onSubmit={(e) => {e.preventDefault();props.stop();props.start()}}>
                                                     <div className="input-group mb-3">
