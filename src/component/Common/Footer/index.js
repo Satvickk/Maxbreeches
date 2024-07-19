@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import logo from '../../../assets/img/logo.png'
 import payment from '../../../assets/img/common/payment.png'
 import { Link } from 'react-router-dom'
-import Cookie from '../Cookie'
-import NewsletterModal from '../NewsletterModal'
+// import Cookie from '../Cookie'
+// import  from '../'
 import { useSelector } from "react-redux"
 import { useDispatch } from "react-redux";
 import Swal from 'sweetalert2'
@@ -194,7 +194,16 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="copyright_left">
-                                <h6>© CopyRight {currentYear} <span>MaxBreeches</span></h6>
+                                <h6>© CopyRight {currentYear} <span>MaxBreeches</span> | Developed by 
+                                <span 
+                                >
+                                <a
+                                style={{color: "#F98E54"}}
+                                target='_blank'
+                                rel="noreferrer"
+                                href='https://www.code-aspire.com'
+                                > Code-aspire.com</a></span>
+                                </h6>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -205,10 +214,10 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
-            {
+            {/* {
                 cookie ? <Cookie accept={acceptCookie} cancel={cancelCookie} /> : null
-            }
-            <NewsletterModal show={promoCenter} stop={stopPromoModal} start={startPromoModal} />
+            } */}
+            {/* < show={promoCenter} stop={stopPromoModal} start={startPromoModal} /> */}
         </>
     )
 }
