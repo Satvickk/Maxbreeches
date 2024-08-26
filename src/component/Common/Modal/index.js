@@ -1,6 +1,8 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { RatingStar } from "rating-star";
+import ImageDisplayCarousel from '../Carousel';
+import QuotationTable from '../Table';
 
 const MyVerticallyCenteredModal = (props) => {
     return (
@@ -19,12 +21,14 @@ const MyVerticallyCenteredModal = (props) => {
                             </button>
                             <div id="product_slider_one">
                                 <div className="row">
-                                    <div className="col-lg-5 col-md-6 col-sm-12 col-12">
+                                    <div className="col-lg-12 col-md-12 col-sm-12 col-12" 
+                                    style={{backgroundColor: "#dadada", display: "flex" , justifyContent: "center"}}>
+                                            <ImageDisplayCarousel Images={props.data.Image}/>
                                         <div className="products_modal_sliders">
-                                            <img src={props.data.imageSrc} alt="img" />
+                                            {/* <img src={props.data.imageSrc} alt="img" /> */}
                                         </div>
                                     </div>
-                                    <div className="col-lg-7 col-md-6 col-sm-12 col-12">
+                                    <div className="col-lg-12 col-md-6 col-sm-12 col-12">
                                         <div className="modal_product_content_one">
                                             <h3>{props.data.productName}</h3>
                                             <div className="reviews_rating">
@@ -32,7 +36,6 @@ const MyVerticallyCenteredModal = (props) => {
                                                 <span>({props.data.reviewCount} Customer Reviews)</span>
                                             </div>
                                             {/* <h4>${props.data.price}.00 <del style={{ fontWeight: 400, color: 'gray' }}>${parseInt(props.data.price) + 17}.00</del> </h4> */}
-                                            <p>{props.data.productDescription}</p>
                                             <div className="variable-single-item">
                                                 <span>Color</span>
                                                 <div className="product-variable-color">
@@ -55,21 +58,31 @@ const MyVerticallyCenteredModal = (props) => {
                                                     </label>
                                                 </div>
                                             </div>
+                                            {/* <p>{props.data.productDescription}</p> */}
+                                            <QuotationTable />
                                             {/* <div className="product_count_one">
                                                 <div className="plus-minus-input">
                                                     <div className="input-group-button">
-                                                        <button type="button" className="button" onClick={decNum}>
+                                                        <button type="button" className="button"
+                                                        //  onClick={decNum}
+                                                         >
                                                             <i className="fa fa-minus" aria-hidden="true"></i>
                                                         </button>
                                                     </div>
-                                                    <input className="form-control" type="number" name="quantity" value={count} readOnly />
+                                                    <input className="form-control" type="number" name="quantity" 
+                                                    // value={count}
+                                                     readOnly />
                                                     <div className="input-group-button">
-                                                        <button type="button" className="button" onClick={incNum}>
+                                                        <button type="button" className="button"
+                                                        //  onClick={incNum}
+                                                         >
                                                             <i className="fa fa-plus" aria-hidden="true"></i>
                                                         </button>
                                                     </div>
                                                 </div>
-                                                <a href="#!" className="theme-btn-one btn-black-overlay btn_sm" onClick={() => addToCart(props.data.productId)}>Add To Cart</a>
+                                                <a href="#!" className="theme-btn-one btn-black-overlay btn_sm" 
+                                                // onClick={() => addToCart(props.data.productId)}
+                                                >Add To Cart</a>
                                             </div> */}
                                             {/* <div className="share-buttons">
                                                 <FacebookShareButton url={window.location.href} quote={props.data.productName}>
