@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import MyVerticallyCenteredModal from '../Common/Modal';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import MyVerticallyCenteredModal from "../Common/Modal";
+import { RatingStar } from "rating-star";
 
 const ListCard = (props) => {
   const [modalShow, setModalShow] = useState(false);
@@ -13,7 +14,7 @@ const ListCard = (props) => {
             <div className="col-lg-3">
               <div className="thumb">
                 <Link to={`#!`} className="image">
-                  <img src={`/${props.data.imageSrc}`} alt="Product" />
+                  <img src={`/${props.data.Image[0]}`} alt="Product" />
                 </Link>
               </div>
             </div>
@@ -24,8 +25,20 @@ const ListCard = (props) => {
                     <Link to={`#!`}>{props.data.productName}</Link>
                   </h4>
                   <p>{props.data.productDescription}</p>
+                  <div className="reviews_rating">
+                    <RatingStar
+                      maxScore={5}
+                      rating={props.data.rating}
+                      id="rating-star-modal"
+                    />
+                    <span>({props.data.reviewCount} Customer Reviews)</span>
+                  </div>
                 </div>
-                <a href="#!" className="add-to-cart btn btn_sm theme-btn-one btn-black-overlay" onClick={() => setModalShow(true)}>
+                <a
+                  href="#!"
+                  className="add-to-cart btn btn_sm theme-btn-one btn-black-overlay"
+                  onClick={() => setModalShow(true)}
+                >
                   View Details
                 </a>
               </div>
@@ -34,7 +47,11 @@ const ListCard = (props) => {
         </div>
       </div>
 
-      <MyVerticallyCenteredModal data={props.data} show={modalShow} onHide={() => setModalShow(false)} />
+      <MyVerticallyCenteredModal
+        data={props.data}
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
     </>
   );
 };

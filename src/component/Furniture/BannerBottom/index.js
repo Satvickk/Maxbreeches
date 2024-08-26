@@ -20,7 +20,7 @@ import img4 from '../../../assets/img/furniture/banner/4.png'
                         </Link>
                         <div className="furniture_bottom_content furniture-content-lg">
                             <h5>Rider Supplies</h5>
-                            <h2>Comfortable Clothing <br/> Men & Women</h2>
+                            <h2>Comfortable Clothing Brand<br/>in equestrian</h2>
                             <Link to="/shoplist">View Product</Link>
                         </div>
                     </div>

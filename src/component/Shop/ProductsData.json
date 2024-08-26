@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "collectionName": "Mens Collection",
+      "collectionName": "MensWear",
       "children": [
         {
           "productId": 1,
@@ -43,7 +43,7 @@
     },
     {
       "id": 2,
-      "collectionName": "Womens Collection",
+      "collectionName": "LadiesWear",
       "children": [
         {
           "productId": 1,
@@ -130,7 +130,7 @@
     },
     {
       "id": 3,
-      "collectionName": "Kids Collection",
+      "collectionName": "Accessories",
       "children": [
         {
           "productId": 1,
