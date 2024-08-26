@@ -6,7 +6,7 @@ const Coupon = () => {
         <>
             <div className="col-lg-6 col-md-6">
                 <div className="coupon_code left">
-                    <h3>Coupon</h3>
+                    <h3>Coupons for Kids Wear</h3>
                     <div className="coupon_inner">
                         <p>Enter your coupon code if you have one.</p>
                         <form onSubmit={(e) => { e.preventDefault(); Swal.fire('Error!!', 'Invalid Cuppon Code', 'error') }}>
