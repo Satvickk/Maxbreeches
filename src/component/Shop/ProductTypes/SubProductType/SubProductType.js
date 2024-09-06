@@ -314,40 +314,40 @@ export const SubProductType = [
         products: [
           {
             productId: 1,
-            productName: "Men’s Classic Woven Breeches",
+            productName: "MRW-Tights-001",
             productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m.breeches.jpg",
+              "Lista Men's Cycling Pants 3D Padded Road Bike Reflective Tights Breathable Long Leggings Ciclismo MTB Trousers B",
+            Image: ["mt1.jpg","mt2.jpg","mt3.jpg"],
             price: 20,
             rating: 4.5,
             reviewCount: 30,
           },
           {
             productId: 2,
-            productName: "Real Denim Breeches",
+            productName: "MRW-Tights-002",
             productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
+              "Pro Gym Men Sports/Fitness/Yoga/Gym Compression Lycra Skin Wear Full Tights Plain Lower/Pant",
+            Image: ["mt4.jpg","mt5.jpg","mt6.jpg"],
             price: 40,
             rating: 4.0,
             reviewCount: 25,
           },
           {
             productId: 3,
-            productName: "Men’s Fashion Breeches",
+            productName: "MRW-Tights-003",
             productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
+              "REDUCE MUSCLE STIFFNESS AND FATIGUE: Medium-weight compression pants support your muscles and keep them warm. They help regulate your body temperature for optimum workout performance and muscle recovery",
+            Image: ["mt7.jpg","mt8.jpg","mt9.jpg"],
             price: 60,
             rating: 4.8,
             reviewCount: 40,
           },
           {
             productId: 4,
-            productName: "Men’s Long Lasting Breeches",
+            productName: "MRW-Tights-004",
             productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
+              "Skin tight pant with special lightweight 4-way stretch fabric and treated with special finish ensure a perfect fit",
+            Image: ["mt12.jpg","mt13.jpg","mt14.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,
@@ -361,40 +361,40 @@ export const SubProductType = [
         products: [
           {
             productId: 1,
-            productName: "Men’s Classic Woven Breeches",
+            productName: "MRW-Base Layer-001",
             productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
+              "PROSHARX Men's Premium Full Sleeve Compression T-Shirt - Athletic Base Layer Tights for Fitness & Sports.",
+            Image: ["acc1.jpg","acc2.jpg","acc3.jpg"],
             price: 20,
             rating: 4.5,
             reviewCount: 30,
           },
           {
             productId: 2,
-            productName: "Real Denim Breeches",
+            productName: "MRW-Base Layer-002",
             productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
+              "CL Thermal Underwear Long Johns Set Mens Winter Hunting Gear Sport Base Layer Bottom Top XS-4XL",
+            Image: ["acc4.jpg","acc5.jpg","acc6.jpg"],
             price: 40,
             rating: 4.0,
             reviewCount: 25,
           },
           {
             productId: 3,
-            productName: "Men’s Fashion Breeches",
+            productName: "MRW-Base Layer-003",
             productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
+              "Athflex Men's Edge Compression Full Sleeves T-Shirt",
+            Image: ["acc7.jpg","acc8.jpg"],
             price: 60,
             rating: 4.8,
             reviewCount: 40,
           },
           {
             productId: 4,
-            productName: "Men’s Long Lasting Breeches",
+            productName: "MRW-Base Layer-004",
             productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
+              "Premium Fabric Blend: Made of 90% polyester and 10% spandex for durability and comfort.",
+            Image: ["acc9.jpg","acc10.jpg","acc11.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,
@@ -408,40 +408,40 @@ export const SubProductType = [
         products: [
           {
             productId: 1,
-            productName: "Men’s Classic Woven Breeches",
+            productName: "MRW-Show Jacket-001",
             productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
+              " Nice Black Blazer for Men Black Coat for Men Stylish Single Breasted Formal Regular SLI Latest Suit Coat for Wedding Party Office Wear",
+            Image: ["mj1.jpg","mj2.jpg"],
             price: 20,
             rating: 4.5,
             reviewCount: 30,
           },
           {
             productId: 2,
-            productName: "Real Denim Breeches",
+            productName: "MRW-Show Jacket-002",
             productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
+              "Size Guide: Blazer Size should be 6 Inch Over Your Jeans Waist Size (For Eg: If you Wear a 30 size Jeans your blazer size should be 36 Note: Blazer Sleeve length and Waist area are alterable",
+            Image: ["mj3.jpg","mj4.jpg"],
             price: 40,
             rating: 4.0,
             reviewCount: 25,
           },
           {
             productId: 3,
-            productName: "Men’s Fashion Breeches",
+            productName: "MRW-Show Jacket-003",
             productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
+              "Comfortable Pockets: Conveniently designed with practical pockets for your essentials, ensuring you can carry your phone, keys, or wallet with ease.",
+            Image: ["mj5.jpg","mj6.jpg"],
             price: 60,
             rating: 4.8,
             reviewCount: 40,
           },
           {
             productId: 4,
-            productName: "Men’s Long Lasting Breeches",
+            productName: "MRW-Show Jacket-004",
             productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
+                "Dark Grey Linen Textured Men's Jacket.Chest pocket, two double-welt pockets, three internal pockets",
+            Image: ["mj7.jpg","mj8.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,
@@ -1340,7 +1340,7 @@ export const SubProductType = [
             productName: "LRW-Breeches--001",
             productDescription:
               "Ovation Horse Riding Pants Breeches with Knee-Patch and Zipper Pocket for Women.The breeches hug you all around and give you the style and confidence that you so desire when riding. These Women's Horse Riding tights are multi-functional, for any type of sport",
-            Image: ["lb1.jpg", "lb2.jpg","lb3.jpg", "lb4.jpg"],
+            Image: ["lw1.jpg"],
             price: 20,
             rating: 4.5,
             reviewCount: 30,
@@ -1350,7 +1350,7 @@ export const SubProductType = [
             productName: "LRW-Breeches--002 ",
             productDescription:
               "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.Pull Up Comfort: Wide waistband with belt loops delivers a comfortable fit and stay-put confidence",
-            Image:["lb11.jpg", "lb12.jpg","lb13.jpg", "lb14.jpg", "lb15.jpg","lb16.jpg", "lb17.jpg"],
+            Image:["lw2.jpg"],
             price: 40,
             rating: 4.0,
             reviewCount: 25,
@@ -1360,7 +1360,7 @@ export const SubProductType = [
             productName: " LRW-Breeches-003",
             productDescription:
               "Women's fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-              Image: ["lb21.jpg", "lb22.jpg","lb23.jpg"],
+              Image: ["lw3.jpg"],
             price: 60,
             rating: 4.8,
             reviewCount: 40,
@@ -1370,7 +1370,7 @@ export const SubProductType = [
             productName: "LRW-Breeches-004 ",
             productDescription:
               "women's long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-              Image: ["lb31.jpg", "lb32.jpg","lb33.jpg", "lb34.jpg", "lb35.jpg", "lb36.jpg"],
+              Image: ["w1.jpg","w2.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,
@@ -1380,7 +1380,7 @@ export const SubProductType = [
             productName: "LRW-Breeches-005",
             productDescription:
               "Ovation Horse Riding Pants Breeches with Knee-Patch and Zipper Pocket for Women.The ladies riding tights breeches are smooth and sleek, offer a fantastic close contact fit shaping well to your body, perfect for all leisure activities as well as showing or schooling.",
-              Image: ["lb41.jpg", "lb42.jpg","lb43.jpg", "lb44.jpg"],
+              Image: ["w3.jpg","w4.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,
@@ -1390,7 +1390,7 @@ export const SubProductType = [
             productName: "LRW-Breeches-006",
             productDescription:
               "Brand FitsT4 Women's Riding Tights Knee Patch Ventilated Active Equestrian Schooling Tights",
-              Image: ["lb51.jpg", "lb52.jpg","lb53.jpg"],
+              Image: ["w5.jpg","w6.jpg","w7.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,
@@ -1400,7 +1400,7 @@ export const SubProductType = [
             productName: "LRW-Breeches-007",
             productDescription:
               "Willit Women's Riding Tights Knee-Patch Breeches Equestrian Horse Riding Pants Schooling Tights Zipper Pockets ",
-              Image: ["lb61.jpg", "lb62.jpg","lb63.jpg", "lb64.jpg"],
+              Image: ["w8.jpg","w9.jpg","w10.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,
@@ -1423,7 +1423,7 @@ export const SubProductType = [
             productName: "MRW-Breeches-001",
             productDescription:
               "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: ["MB1.jpg","MB2.jpg","MB3.jpg"],
+            Image: ["mw2.jpg"],
             price: 20,
             rating: 4.5,
             reviewCount: 30,
@@ -1433,7 +1433,7 @@ export const SubProductType = [
             productName: "MRW-Breeches-002",
             productDescription:
               "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: ["MB5.jpg","MB6.jpg","MB7.jpg"],
+            Image: ["mw3.jpg"],
             price: 40,
             rating: 4.0,
             reviewCount: 25,
@@ -1443,7 +1443,7 @@ export const SubProductType = [
             productName: "MRW-Breeches-003",
             productDescription:
               "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: ["MB14.jpg","MB15.jpg","MB20.jpg"],
+            Image: ["mw1.jpg"],
             price: 60,
             rating: 4.8,
             reviewCount: 40,
@@ -1473,40 +1473,40 @@ export const SubProductType = [
         products: [
           {
             productId: 1,
-            productName: "Men’s Classic Woven Breeches",
+            productName: "M-Accessories-001",
             productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
+              "ReDesign Apparels Performance Headband for Men and Women - Running, Cycling, Yoga, Tennis, Badminton & Other Sports.",
+            Image: ["gm4.jpg"],
             price: 20,
             rating: 4.5,
             reviewCount: 30,
           },
           {
             productId: 2,
-            productName: "Real Denim Breeches",
+            productName: "M-Accessories-002",
             productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
+              "Dr Ortho Knee Support (Black, Universal)",
+            Image: ["gm5.jpg"],
             price: 40,
             rating: 4.0,
             reviewCount: 25,
           },
           {
             productId: 3,
-            productName: "Men’s Fashion Breeches",
+            productName: "M-Accessories-003",
             productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
+              "Bynomo Stylish Cotton Adjustable Baseball Cap for Men and Women, Embroidered Unisex Cap for Summers",
+            Image: ["gm6.jpg"],
             price: 60,
             rating: 4.8,
             reviewCount: 40,
           },
           {
             productId: 4,
-            productName: "Men’s Long Lasting Breeches",
+            productName: "M-Accessories-004",
             productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
+              "Boldfit Nylon Wood Wrist Supporter for Gym Wrist Band for Men Gym Wrist Support, for Pain Relief Hand Band for Men Gym Accessories for Men Wrist Wrap for Gym Equipment Wrist Brace Women Red,One Size",
+            Image: ["gm7.jpg"],
             price: 50,
             rating: 4.2,
             reviewCount: 35,

@@ -10,7 +10,7 @@ const Banner = (props) => {
                             <div className="common_banner_text">
                                 <h2>{props.title}</h2>
                                 <ul>
-                                    <li><Link to="/">Home</Link></li>
+                                    <li><Link to="home">Home</Link></li>
                                     <li className="slash">/</li>
                                     <li className="active">{props.title}</li>
                                 </ul>
