@@ -108,7 +108,7 @@ const Header = () => {
 
   return (
     <>
-      <TopHeader />
+      {/* <TopHeader /> */}
       <header className="header-section d-none d-xl-block">
         <div className="header-wrapper">
           <div className="header-bottom header-bottom-color--golden section-fluid sticky-header sticky-color--golden">
@@ -116,7 +116,7 @@ const Header = () => {
               <div className="row">
                 <div className="col-12 d-flex align-items-center justify-content-between">
                   <div className="header-logo">
-                    <div className="logo" style={{margin: "10px"}}>
+                    <div className="logo" style={{ margin: "10px" }}>
                       <Link to="/">
                         <img src={logo} alt="logo" />
                       </Link>
@@ -286,212 +286,81 @@ const Header = () => {
           </button>
         </div>
         <div className="offcanvas-mobile-menu-wrapper">
-          {/* <div className="mobile-menu-bottom">
+          <div className="mobile-menu-bottom">
             <div className="offcanvas-menu">
               <ul>
                 <li>
-                  <a href="#!" onClick={() => handleShow("home")}>
+                  <a href="/" onClick={() => handleShow("home")}>
                     <span>Home</span>
                   </a>
-                  {show === "home" ? (
+                </li>
+                <li>
+                  <a href="/about" onClick={() => handleShow("about")}>
+                    <span>About us</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" onClick={() => handleShow("products")}>
+                    <span>Products</span>
+                  </a>
+                  {show === "products" ? (
                     <ul className="mobile-sub-menu">
                       <li>
-                        <Link to="/">Fashion</Link>
+                        <p>
+                          <b>Equestrian product</b>
+                        </p>
                       </li>
                       <li>
-                        <Link to="/furniture">Furniture</Link>
+                        <Link to="/ladiesRidingWear">Ladies Riding Wear</Link>
                       </li>
                       <li>
-                        <Link to="/electronics">Electronics</Link>
+                        <Link to="/mensRidingWear">Men’s Riding Wear</Link>
+                      </li>
+                      <li>
+                        <Link to="/kidsRidingWear">Kid’s Riding Wear</Link>
+                      </li>
+                      <li>
+                        <Link to="/saddleryHarness">Horse Saddle Pad</Link>
+                      </li>
+                      <li>
+                        <Link to="/horseRug">Horse Rug</Link>
+                      </li>
+                      <li>
+                        <Link to="/horseAccesories">Horse Accessories</Link>
+                      </li>
+                      <li>
+                        <Link to="/horseSaddlePad">Saddlery & Harness</Link>
+                      </li>
+                      <li>
+                        <p>
+                          <b>Gym/cycling/yoga product</b>
+                        </p>
+                      </li>
+                      <li>
+                        <Link to="/ladiesWear">Ladies Wear</Link>
+                      </li>
+                      <li>
+                        <Link to="/mensWear">Men’s Wear</Link>
+                      </li>
+                      <li>
+                        <Link to="/accesories">Accessories</Link>
                       </li>
                     </ul>
                   ) : null}
                 </li>
                 <li>
-                  <a href="#!" onClick={() => handleShow("shop")}>
-                    <span>Shop</span>
+                  <a href="/blog-grid-two" onClick={() => handleShow("news")}>
+                    <span>News & Updates</span>
                   </a>
-                  {show === "shop" ? (
-                    <>
-                      <ul className="mobile-sub-menu">
-                        <li>
-                          <a href="#!">Shop Layout</a>
-                          <ul className="mobile-sub-menu">
-                            <li>
-                              <Link to="/shop">Shop Four Grid</Link>
-                            </li>
-                            <li>
-                              <Link to="/shopTwo">Shop Three Grid</Link>
-                            </li>
-                            <li>
-                              <Link to="/shoplist">Shop List View</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop-left-bar">Shop Left Sidebar</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop-right-bar">
-                                Shop Right Sidebar
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-
-                      <ul className="mobile-sub-menu">
-                        <li>
-                          <a href="#!">Shop Pages</a>
-                          <ul className="mobile-sub-menu">
-                            <li>
-                              <Link to="/cart">Cart View One</Link>
-                            </li>
-                            <li>
-                              <Link to="/cartTwo">Cart View Two </Link>
-                            </li>
-                            <li>
-                              <Link to="/empty-cart">Empty Cart</Link>
-                            </li>
-                            <li>
-                              <Link to="/checkout-one">Checkout View One</Link>
-                            </li>
-                            <li>
-                              <Link to="/checkout-two">Checkout View Two</Link>
-                            </li>
-                            <li>
-                              <Link to="/wishlist">Wishlist</Link>
-                            </li>
-                            <li>
-                              <Link to="/compare">Compare</Link>
-                            </li>
-                            <li>
-                              <Link to="/order-tracking">Order Tracking</Link>
-                            </li>
-                            <li>
-                              <Link to="/order-complete">Order Complete</Link>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <ul className="mobile-sub-menu">
-                        <li>
-                          <a href="#!">Product Single</a>
-                          <ul className="mobile-sub-menu">
-                            <li>
-                              <Link to="/product-details-one/1">
-                                Product Single
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/product-details-two/1">
-                                Product Single Two
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </>
-                  ) : null}
                 </li>
                 <li>
-                  <a href="#!" onClick={() => handleShow("feature")}>
-                    <span>Feature</span>
+                  <a href="/contact-two" onClick={() => handleShow("contact")}>
+                    <span>Contact us</span>
                   </a>
-                  {show === "feature" ? (
-                    <ul className="mobile-sub-menu">
-                      <li>
-                        <Link to="/product-hover">Product Hover</Link>
-                      </li>
-                      <li>
-                        <Link to="/order-success">Order Success</Link>
-                      </li>
-                      <li>
-                        <Link to="/email-template-one">Email Template 1</Link>
-                      </li>
-                      <li>
-                        <Link to="/email-template-two">Email Template 2</Link>
-                      </li>
-                      <li>
-                        <Link to="/email-template-three">Email Template 3</Link>
-                      </li>
-                      <li>
-                        <Link to="/lookbooks">LookBook</Link>
-                      </li>
-                      <li>
-                        <Link to="/invoice-one">Invoice 1</Link>
-                      </li>
-                      <li>
-                        <Link to="/invoice-two">Invoice 2</Link>
-                      </li>
-                    </ul>
-                  ) : null}
-                </li>
-                <li>
-                  <a href="#!" onClick={() => handleShow("blogs")}>
-                    <span>Blogs</span>
-                  </a>
-                  {show === "blogs" ? (
-                    <ul className="mobile-sub-menu">
-                      <li>
-                        <Link to="/blog-grid-three">Blog Grid View One</Link>
-                      </li>
-                      <li>
-                        <Link to="/blog-grid-two">Blog Grid View Two</Link>
-                      </li>
-                      <li>
-                        <Link to="/blog-list-view">Blog List View</Link>
-                      </li>
-                      <li>
-                        <Link to="/blog-single-one">Blog Single View One </Link>
-                      </li>
-                      <li>
-                        <Link to="/blog-single-two">Blog Single View TWo</Link>
-                      </li>
-                    </ul>
-                  ) : null}
-                </li>
-                <li>
-                  <a href="#!" onClick={() => handleShow("pages")}>
-                    <span>Pages</span>
-                  </a>
-
-                  {show === "pages" ? (
-                    <ul className="mobile-sub-menu">
-                      <li>
-                        <Link to="/about">About Us</Link>
-                      </li>
-                      <li>
-                        <Link to="/vendor-dashboard">Vendor</Link>
-                      </li>
-                      <li>
-                        <Link to="/my-account">My Account</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact-one">Contact Us One</Link>
-                      </li>
-                      <li>
-                        <Link to="/contact-two">Contact Us Two</Link>
-                      </li>
-                      <li>
-                        <Link to="/coming-soon">Coming Soon</Link>
-                      </li>
-                      <li>
-                        <Link to="/faqs">Frequently Questions</Link>
-                      </li>
-                      <li>
-                        <Link to="/privacy-policy">Privacy Policy</Link>
-                      </li>
-                      <li>
-                        <Link to="/error">404 Page</Link>
-                      </li>
-                      <li>
-                        <Link to="/login">Login</Link>
-                      </li>
-                    </ul>
-                  ) : null}
                 </li>
               </ul>
             </div>
-          </div> */}
+          </div>
           <div className="mobile-contact-info">
             <div className="logo">
               <Link to="/">
@@ -500,11 +369,12 @@ const Header = () => {
             </div>
             <address className="address">
               <span>
-                Plot.No 110/ Arazi No 335 Kanpur- Lucknow By pass highway (near
-                baba kuti) Suklaganj Dist. Unnao. 209861 U.P india.
+                Address: Plot.No 110/ Arazi No 335 Kanpur- Lucknow By pass
+                highway (near baba kuti) Suklaganj Dist. Unnao. 209861 U.P
+                india.
               </span>
-              <span>Call Us: 0123456789, 0123456789</span>
-              <span>Email: demo@example.com</span>
+              <span>WhatsApp: 0091-8052003993</span>
+              <span>Email: info@maxbreeches.com</span>
             </address>
             <ul className="social-link">
               <li>
@@ -554,11 +424,11 @@ const Header = () => {
         <div className="mobile-contact-info">
           <address className="address">
             <img src={logoWhite} alt="logo" />
-            <span>Address: Plot.No 110/ Arazi No 335 Kanpur- Lucknow
-            By pass highway (near baba kuti) Suklaganj Dist. Unnao.
-            209861 U.P india.</span>
-            <span>WhatsApp: 
-            0091-8052003993</span>
+            <span>
+              Address: Plot.No 110/ Arazi No 335 Kanpur- Lucknow By pass highway
+              (near baba kuti) Suklaganj Dist. Unnao. 209861 U.P india.
+            </span>
+            <span>WhatsApp: 0091-8052003993</span>
             <span>Email: info@maxbreeches.com</span>
           </address>
           <ul className="social-link">

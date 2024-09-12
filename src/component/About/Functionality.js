@@ -22,7 +22,7 @@ const Functionality = () => {
       <section id="about_progressbar" className="ptb-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="about_progressbar_content">
                 <h2>Functionality meets perfection</h2>
                 <p>
@@ -52,11 +52,11 @@ const Functionality = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="custom-progress m-t-40">
                 <SkillBar skills={skills} height={50} colors={colors} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

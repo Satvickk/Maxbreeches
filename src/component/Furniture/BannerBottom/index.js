@@ -15,7 +15,7 @@ import img4 from '../../../assets/img/furniture/banner/4.png'
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div className="furniture_bottom_wrapper">
-                        <Link to="/shoplist" className="hover_effect_furniture">
+                        <Link to="/ladiesRidingBreeches" className="hover_effect_furniture">
                             <img src={img1} alt="img" />
                         </Link>
                         <div className="furniture_bottom_content furniture-content-lg">
@@ -27,35 +27,35 @@ import img4 from '../../../assets/img/furniture/banner/4.png'
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div className="furniture_bottom_wrapper mb-30">
-                        <Link to="/shoplist" className="hover_effect_furniture">
+                        <Link to="/ladiesRidingWear" className="hover_effect_furniture">
                             <img src={img2} alt="img"/>
                         </Link>
                         <div className="furniture_bottom_content furniture-content-md">
                             <h5>Rider Supplies</h5>
                             <h2>Durable and <br/> Fashionable</h2>
-                            <Link to="/shoplist">View Product</Link>
+                            <Link to="/ladiesRidingWear">View Product</Link>
                         </div> 
                     </div>
                     <div className="furniture_bottom_wrapper">
-                        <Link to="/shoplist" className="hover_effect_furniture">
+                        <Link to="/ladiesRidingWear" className="hover_effect_furniture">
                             <img src={img3} alt="img" />
                         </Link>
                         <div className="furniture_bottom_content furniture-content-md">
                             <h5>Rider Supplies</h5>
                             <h2>Sporty Fit with<br/>Safety</h2>
-                            <Link to="/shoplist">View Product</Link>
+                            <Link to="/ladiesRidingWear">View Product</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div className="furniture_bottom_wrapper">
-                        <Link to="/shoplist" className="hover_effect_furniture">
+                        <Link to="/ladiesRidingWear" className="hover_effect_furniture">
                             <img src={img4} alt="img" />
                         </Link>
                         <div className="furniture_bottom_content furniture-content-md">
                             <h5>Rider Supplies</h5>
                             <h2>Best in the Market<br/>at Affordable Price</h2>
-                            <Link to="/shoplist">View Product</Link>
+                            <Link to="/ladiesRidingWear">View Product</Link>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ const Furniture = () => {
             {/* <BlackFriday /> */}
             <PopularProduct />
             <OurStory />
-            <Blog />
+            {/* <Blog /> */}
             <InstgramSlider container="container" />
             <Footer />
         </>
