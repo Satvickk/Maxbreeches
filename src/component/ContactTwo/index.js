@@ -77,7 +77,7 @@ const ContactTwoArea = () => {
                                         </div>
                                     </li>
                                 </ul>
-                                <Map />
+                                {/* <Map /> */}
                             </div>
                         </div>
                     </div>
