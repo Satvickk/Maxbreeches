@@ -2,10 +2,7 @@ import React from "react";
 import SkillBar from "react-skillbars";
 
 const skills = [
-  { type: "TECHNOLOGY", level: 85 },
-  { type: "SYSTEMS", level: 75 },
-  { type: "MANAGEMENT", level: 65 },
-  { type: "AIMS", level: 95 },
+  
 ];
 
 const colors = {
