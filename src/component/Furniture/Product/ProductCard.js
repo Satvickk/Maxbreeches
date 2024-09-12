@@ -24,8 +24,8 @@ const ProductCard = (props) => {
         <>
             <div className="product_box text-center">
                 <div className="product_img">
-                    <Link to={`/shoplist`}>
-                        <img src={props.data.img} alt="furniture_img1" />
+                    <Link to={props.data.url} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                        <img src={props.data.img} style={{height: "300px", objectFit: "cover"}} alt="furniture_img1" />
                     </Link>
                     <div className="product_action_box">
                         <ul className="list_none pr_action_btn">
@@ -48,7 +48,7 @@ const ProductCard = (props) => {
                         <span className="rating_num">({props.data.rating.count})</span>
                     </div>
                     <div className="add-to-cart">
-                        <a href="#!" className="offcanvas-toggle  theme-btn-one bg-black btn_sm" onClick={() => addToCart(props.data.id)}>
+                        <a href={props.data.url} className="offcanvas-toggle  theme-btn-one bg-black btn_sm" onClick={() => addToCart(props.data.id)}>
                             <i className="fa fa-cart-arrow-down"></i>View Products</a>
                     </div>
                 </div>

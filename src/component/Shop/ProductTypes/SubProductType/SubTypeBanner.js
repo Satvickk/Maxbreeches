@@ -64,7 +64,9 @@ const SubTypeBanner = ({ heading, subCollectionName, title, slug }) => {
                       >
                         <div>
                           <p>{data.title}</p>
-                          <img src={data.img} alt="img" />
+                          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                          <img src={data.img} alt="img" style={{height: "300px", objectFit: "cover"}} />
+                          </div>
                         </div>
                       </div>
                     ))

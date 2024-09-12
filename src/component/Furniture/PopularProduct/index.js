@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 
 import LadiesRidingWear from "../../../assets/img/product-image/lrb.jpg"
 import MensRidingWear from "../../../assets/img/product-image/mrb.jpg"
-import KidsRidingWear from "../../../assets/img/product-image/krb.jpg"
+import KidsBaseJacket from "../../../assets/img/product-image/kbj.jpg"
 
 const PopularProduct = () => {
   let products = useSelector((state) => state.products.products);
@@ -121,7 +121,7 @@ const PopularProduct = () => {
       id: 3,
       labels: "Trending",
       category: "fashion",
-      img: LadiesRidingWear,
+      img: KidsBaseJacket,
       url: "/kidsRidingWear",
       hover_img: "/static/media/product10.f1fd90f9e43d4307cd4a.png",
       title: "Kids Riding Breeches",
