@@ -14,7 +14,7 @@ const ListCard = (props) => {
             <div className="col-lg-3">
               <div className="thumb">
                 <Link to={`#!`} className="image">
-                  <img src={`/${props.data.Image[0]}`} alt="Product" />
+                  <img src={`/${props?.data?.Image[0]}`} alt="Product" />
                 </Link>
               </div>
             </div>
