@@ -109,13 +109,13 @@ const SubTypeBanner = ({ heading, subCollectionName, title, slug, numberOfProduc
               </ul>
             </div>
           </div>
-          <div className="row">
             { // Get the products of the selected child
-              ProductData.length > 0 ? ProductData.map((product, index) => (
+              ProductData.length > 0 ? <div className="row">
+                {ProductData.map((product, index) => (
                 <ListCard data={product} key={index} />
-              )) : <p>Coming Soon</p>}
+              ))}
+              </div> : <HeadingTwo heading={"Coming Soon"} style={{width: "100%", marginTop: "12px"}}/>}
           </div>
-        </div>
       </section>
     </>
   );

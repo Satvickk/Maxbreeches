@@ -505,48 +505,7 @@ export const SubProductType = [
         img: img11,
         title: "Quilting Vest",
         slug: "QuiltingVest",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: [],
       },
       {
         img: img3,
@@ -599,48 +558,7 @@ export const SubProductType = [
         img: img12,
         title: "Show Jacket",
         slug: "ShowJacket",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: [],
       },
       {
         img: img13,
@@ -741,236 +659,31 @@ export const SubProductType = [
         img: img14,
         title: "Head Stall",
         slug: "HeadStall",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img15,
         title: "Bridle",
         slug: "Bridle",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img16,
         title: "Breast Plate",
         slug: "BreastPlate",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img17,
         title: "Harness",
         slug: "Harness",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img18,
         title: "Halter",
         slug: "Halter",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
     ],
   },
@@ -982,236 +695,31 @@ export const SubProductType = [
         img: img19,
         title: "Bell Boots",
         slug: "BellBoots",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img20,
         title: "Leg Boots",
         slug: "LegBoots",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img21,
         title: "Ear Bonet",
         slug: "EarBonet",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img22,
         title: "Necktie",
         slug: "Necktie",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
       {
         img: img23,
         title: "Elasticized Bun Cover",
         slug: "ElasticizedBunCover",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: []
       },
     ],
   },

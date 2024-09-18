@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Heading = (props) => {
+const Heading = ({heading, para, ...rest}) => {
     return (
         <>
-            <div className="row">
+            <div className="row" {...rest}>
                 <div className="col-lg-12">
                     <div className="center_heading">
-                        <h2>{props.heading}</h2>
-                        <p>{props.para}</p>
+                        <h2>{heading}</h2>
+                        <p>{para}</p>
                     </div>
                 </div>
             </div>
