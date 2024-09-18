@@ -6,7 +6,7 @@ import { SubProductType } from "./SubProductType";
 import HeadingTwo from "../../../Fashion/Heading";
 import ListCard from "../../ListCard";
 
-const SubTypeBanner = ({ heading, subCollectionName, title, slug }) => {
+const SubTypeBanner = ({ heading, subCollectionName, title, slug, numberOfProducts }) => {
   const [selectedType, setSelectedType] = useState(slug);
   const [selectedTitle, setSelectedTitle] = useState(title);
 
@@ -16,33 +16,43 @@ const SubTypeBanner = ({ heading, subCollectionName, title, slug }) => {
   }
 
   let settings = {
-    arrows: false,
-    dots: false,
-    infinite: false,
-    speed: 900,
-    slidesToShow: 5,
+    infinite: true,
+    slidesToShow: 4,
     slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    lazyLoad: 'progressive',
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+  }
+
+
+  const ProductData = SubProductType.filter(
+    (item) => item.subCollectionName === subCollectionName
+  )
+    .flatMap((item) => item.children) // Flatten all children to get a list of subtypes
+    .filter((child) => child.slug === selectedType) // Filter by the selected slug
+    .flatMap((child) => child.products);
 
   return (
     <>
@@ -100,15 +110,10 @@ const SubTypeBanner = ({ heading, subCollectionName, title, slug }) => {
             </div>
           </div>
           <div className="row">
-            {SubProductType.filter(
-              (item) => item.subCollectionName === subCollectionName
-            )
-              .flatMap((item) => item.children) // Flatten all children to get a list of subtypes
-              .filter((child) => child.slug === selectedType) // Filter by the selected slug
-              .flatMap((child) => child.products) // Get the products of the selected child
-              .map((product, index) => (
+            { // Get the products of the selected child
+              ProductData.length > 0 ? ProductData.map((product, index) => (
                 <ListCard data={product} key={index} />
-              ))}
+              )) : <p>Coming Soon</p>}
           </div>
         </div>
       </section>

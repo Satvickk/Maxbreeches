@@ -699,95 +699,25 @@ export const SubProductType = [
         img: img24,
         title: "All Purpose Saddle Pad",
         slug: "AllPurposeSaddlePad",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: [],
       },
       {
         img: img25,
         title: "Dressage Saddle Pad",
         slug: "DressageSaddlePad",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: [],
+      },
+      {
+        img: img24,
+        title: "All Purpose Saddle Pad",
+        slug: "AllPurposeSaddlePad",
+        products: [],
+      },
+      {
+        img: img25,
+        title: "Dressage Saddle Pad",
+        slug: "DressageSaddlePad",
+        products: [],
       },
     ],
   },
@@ -799,48 +729,7 @@ export const SubProductType = [
         img: img26,
         title: "Rugs",
         slug: "Rugs",
-        products: [
-          {
-            productId: 1,
-            productName: "Men’s Classic Woven Breeches",
-            productDescription:
-              "Ever best Men’s classic woven made of cotton microfiber with silicon full seat And bottom lycra for the comfort even under the shoes.",
-            Image: "m1.jpg",
-            price: 20,
-            rating: 4.5,
-            reviewCount: 30,
-          },
-          {
-            productId: 2,
-            productName: "Real Denim Breeches",
-            productDescription:
-              "Very classic Real denim made of cotton with wash effect with leather full seat for strong And long lasting breeches.",
-            Image: "m2.jpg",
-            price: 40,
-            rating: 4.0,
-            reviewCount: 25,
-          },
-          {
-            productId: 3,
-            productName: "Men’s Fashion Breeches",
-            productDescription:
-              "Men’s fashion breech two tone made of blend of cotton and nylon 4way stretch With bottom flexi panel to ride with passion and energy.",
-            Image: "m3.jpg",
-            price: 60,
-            rating: 4.8,
-            reviewCount: 40,
-          },
-          {
-            productId: 4,
-            productName: "Men’s Long Lasting Breeches",
-            productDescription:
-              "Men’s long lasting combination of fashion and classic made of blend of polyester and viscose with branding details, two front slant pocket with back two flap pocket, silicon knee patch with lycra bottom.",
-            Image: "m4.jpg",
-            price: 50,
-            rating: 4.2,
-            reviewCount: 35,
-          },
-        ],
+        products: [],
       },
     ],
   },
