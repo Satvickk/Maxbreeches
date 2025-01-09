@@ -4,6 +4,8 @@ import Banner from '../../component/Common/Banner'
 import ContactTwoArea from '../../component/ContactTwo'
 import Footer from '../../component/Common/Footer'
 const ContactTwo = () => {
+
+    console.log("working")
     return (
         <>
             <Header />
